@@ -5,6 +5,7 @@ public class Personnage {
         String orio="nord";
         if(fois%4==1) orio="EST" ;
         if (fois%4==2)orio="SUD";
+        if(fois%4==3)orio="WEST";
         return orio;
     }
 }
